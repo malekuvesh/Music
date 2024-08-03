@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+    <link rel="stylesheet" href="./styling/style.css">
+</head>
+
+<body>
+    <div class="center-text">
+        <h3 class="uve"><b>Music Song</b></h3>
+        <ul id="Play" class="Play">
+            <li data-src="./assest/imges/song/Allahuma_Salle_Alla.mp1">
+                <img src="assest/imges/code.jpg">song 1
+            </li>
+            <li data-src="./assest/imges/song/An_Nabi_Sallu_.mp2">
+                <img src="assest/imges/Logo.jpg">song 2
+            </li>
+            <li data-src="./assest/imges/song/'Bhar_Do_Jholi_Meri'.mp3">
+                <img src="assest/imges/code.jpg">song 3
+            </li>
+            <li data-src="./assest/imges/song/The_City_School.mp4">
+                <img src="assest/imges/Logo.jpg">song 4
+            </li>
+        </ul>
+
+        <div class="process">
+            <div class="time"></div>
+        </div>
+        <div class="button">
+            <button class="sub" onclick="Prve()"><b>Prev</b></button>
+            <button id="playbtn" class="sub" onclick="playtrack()"><b>Play</b></button>
+            <button id="pusebtn" class="sub  hide" onclick="puseTrack()"><b>Puse</b></button>
+            <button class="sub" onclick="Nexttrack()"><b>Next</b></button>
+        </div>
+        
+
+        <div class="rang">
+            <input type="range" name="rang" height="800px">
+        </div>
+    </div>
+    <script src="./script/Logic.js"></script>
+</body>
+
+</html>
